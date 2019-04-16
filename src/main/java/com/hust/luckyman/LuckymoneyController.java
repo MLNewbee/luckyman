@@ -29,7 +29,7 @@ public class LuckymoneyController {
         luckyMoney.setMoney(money);
         return repository.save(luckyMoney);
     }
-    
+
     //通过id查询红包
     @GetMapping("/luck/{id}")
     public LuckyMoney findById(@PathVariable("id")Integer id){
