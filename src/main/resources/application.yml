@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /luckyman
+
+limit:
+  minMoney: 2
+  maxMoney: 9999
+  description: 最少要发${limit.minMoney}焖鸡,最多要发${limit.maxMoney}焖鸡
