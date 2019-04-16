@@ -7,3 +7,14 @@ limit:
   minMoney: 2
   maxMoney: 9999
   description: 最少要发${limit.minMoney}焖鸡,最多要发${limit.maxMoney}焖鸡
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/luckyman?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT&useSSL=false
+    username: root
+    password: menglong521
+  jpa:
+     hibernate:
+       ddl-auto: update
+     show-sql: true
